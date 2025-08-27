@@ -8,7 +8,7 @@ from databae.models import Base
 
 
 
-engine = create_async_engine(os.getenv('DB_URL'), echo=True)
+engine = create_async_engine(os.getenv('DB_URL'), echo=False)
 
 
 
